@@ -1,0 +1,19 @@
+{
+  "routes": [
+    {
+      "downstreampathtemplate": "/api/customers",
+      "downstreamscheme": "http",
+      "downstreamhostandports": [
+        {
+          "host": "localhost",
+          "port": 5001
+        }
+      ],
+      "upstreampathtemplate": "/getway/customers",
+      "upstreamhttpmethod": [ "get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5000"
+  }
+}
