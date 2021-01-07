@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
-namespace getway
+namespace Getway
 {
     public class Program
     {
